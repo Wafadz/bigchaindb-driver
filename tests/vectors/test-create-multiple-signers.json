@@ -1,43 +1,43 @@
-{  
-  "transaction_type":"TRANSFER",
+{
+  "operation":"TRANSFER",
   "use_case":"Two signers, one output",
-  "keys":{  
-    "signers":[  
-      {  
+  "keys":{
+    "signers":[
+      {
         "public_key":"9uXbsxmKpV3qyfaXLu9r9bRWiNtvDtpAoVrA7wL5maFr",
         "private_key":"9E96opXK8V8C1zn4LnTNTXYfCcSyv4MuSJSfKnJe3vug"
       },
-      {  
+      {
         "public_key":"4YqTjg3eQNpkAbt8fACNMCY9iLUQYM4AGFLUXPARcxTS",
         "private_key":"3W58t8GxAJ3dDbfca4xsSr4MYBLNvWQAc2Lcjq33jnE8"
       }
     ],
-    "recipients_public_keys":[  
+    "recipients_public_keys":[
       "4YqTjg3eQNpkAbt8fACNMCY9iLUQYM4AGFLUXPARcxTS"
     ]
   },
   "amount":"1",
-  "asset":{  
-    "data":{  
-      "bicycle":{  
+  "asset":{
+    "data":{
+      "bicycle":{
         "serial_number":"abcd1234",
         "manufacturer":"bkfab"
       }
     }
   },
-  "metadata":{  
+  "metadata":{
     "planet":"earth"
   },
-  "payload":{  
+  "transaction":{
     "version":"1.0",
     "id":"b8746360770d43798886bc5e2073ffdf16107b4ac179bda80781ea6aac94896e",
-    "outputs":[  
-      {  
-        "public_keys":[  
+    "outputs":[
+      {
+        "public_keys":[
           "4YqTjg3eQNpkAbt8fACNMCY9iLUQYM4AGFLUXPARcxTS"
         ],
-        "condition":{  
-          "details":{  
+        "condition":{
+          "details":{
             "type":"ed25519-sha-256",
             "public_key":"4YqTjg3eQNpkAbt8fACNMCY9iLUQYM4AGFLUXPARcxTS"
           },
@@ -46,23 +46,23 @@
         "amount":"1"
       }
     ],
-    "metadata":{  
+    "metadata":{
       "planet":"earth"
     },
-    "asset":{  
-      "data":{  
-        "car":{  
+    "asset":{
+      "data":{
+        "car":{
           "serial_number":"92384",
           "manufacturer":"sfsj"
         }
       }
     },
     "operation":"CREATE",
-    "inputs":[  
-      {  
+    "inputs":[
+      {
         "fulfills":null,
         "fulfillment":"pGSAIIRSTG2GWeN3r-7i1d-izNmf3LL0Vu7pQsZyaNV1YkaBgUA5QdPsv5Nrk30xWuBpC2XnKud7p1kVCscH9TSBBUxsY4mK0EfJIRbPPfLwZ_Cvb-OJ96W_LcXgCR1k8k0krosN",
-        "owners_before":[  
+        "owners_before":[
           "9uXbsxmKpV3qyfaXLu9r9bRWiNtvDtpAoVrA7wL5maFr"
         ]
       }

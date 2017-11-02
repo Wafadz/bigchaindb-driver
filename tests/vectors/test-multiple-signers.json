@@ -1,43 +1,43 @@
-{  
-  "transaction_type":"TRANSFER",
+{
+  "operation":"TRANSFER",
   "use_case":"Two signer to fullfill the outputs, one output",
-  "keys":{  
-    "signers":[  
-      {  
+  "keys":{
+    "signers":[
+      {
         "public_key":"HUpzknSNrDT5zJTUxmqwAFG4uDsTVahxT5pgb1WuqfBz",
         "private_key":"5ghQ6eoKqwqVrym3v825qj7qpTPEx1yULDozBvNE5VDk"
       },
-      {  
+      {
         "public_key":"FV71pfXTZyXzDrVssiwQv9qqgU63hbCLVPUN8BJtqiYZ",
         "private_key":"bB8iUy46b1gkVrBAnWKysnyd4sQUyTDHes27x5mdU1j"
       }
     ],
-    "recipients_public_keys":[  
+    "recipients_public_keys":[
       "FXQpfbzZEkJLZ8PFVjvkBztgczmzBgju58Uwjsry2nmk"
     ]
   },
   "amount":"2",
-  "asset":{  
-    "data":{  
-      "bicycle":{  
+  "asset":{
+    "data":{
+      "bicycle":{
         "serial_number":"abcd1234",
         "manufacturer":"bkfab"
       }
     }
   },
-  "metadata":{  
+  "metadata":{
     "planet":"earth"
   },
-  "payload":{  
+  "transaction":{
     "version":"1.0",
     "id":"ec98bb1bbc7eaf20acbc07a8ab652da7bb295c9fc5b28d63196fc3e4bae73be9",
-    "outputs":[  
-      {  
-        "public_keys":[  
+    "outputs":[
+      {
+        "public_keys":[
           "FXQpfbzZEkJLZ8PFVjvkBztgczmzBgju58Uwjsry2nmk"
         ],
-        "condition":{  
-          "details":{  
+        "condition":{
+          "details":{
             "type":"ed25519-sha-256",
             "public_key":"FXQpfbzZEkJLZ8PFVjvkBztgczmzBgju58Uwjsry2nmk"
           },
@@ -47,18 +47,18 @@
       }
     ],
     "metadata":null,
-    "asset":{  
+    "asset":{
       "id":"be745a61114fe21e9d599bda64cbad13bd6ba0f6ba08b868fa36b9e603ed13b6"
     },
     "operation":"TRANSFER",
-    "inputs":[  
-      {  
-        "fulfills":{  
+    "inputs":[
+      {
+        "fulfills":{
           "output_index":0,
           "transaction_id":"be745a61114fe21e9d599bda64cbad13bd6ba0f6ba08b868fa36b9e603ed13b6"
         },
         "fulfillment":"ooHRoIHMpGSAINc2rguqbWrbkFxbzDO1UZXarVng2iYsHIR1qAM24VY6gUCQUdPexVUahHFo4nrcdK0jShGpmgvAyA6Qkr9-b7b0-hmMawE4UKdan1Rs-q-R9QkboADrCVMjBZi_VFZFYfQEpGSAIPTb8RC1zxQFMLQVGR1MSodMjGun8oLNekBMsrU-TPm1gUAXglpYpyfzajnrbidxL-WZtZPZuyLFUdB-jeZkT4M3riz8nwV6VsEZ1EZtBbpYiephEY9MwWz2U0rXE6P9I9ULoQA",
-        "owners_before":[  
+        "owners_before":[
           "HUpzknSNrDT5zJTUxmqwAFG4uDsTVahxT5pgb1WuqfBz",
           "FV71pfXTZyXzDrVssiwQv9qqgU63hbCLVPUN8BJtqiYZ"
         ]

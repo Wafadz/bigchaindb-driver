@@ -1,38 +1,38 @@
-{  
-  "transaction_type":"CREATE",
+{
+  "operation":"CREATE",
   "use_case":"One signer, one output, divisible asset",
-  "keys":{  
-    "signers":[  
-      {  
+  "keys":{
+    "signers":[
+      {
         "public_key":"GCRhSGTHsVjJi2krGPNyP1tJXwx3RT8xNB7Q7Jhsz7oo",
         "private_key":"E45nYsyavET7dZUTxLkxEGiYVNRhJR5CFhbE6s54bcn1"
       }
     ],
-    "recipients_public_keys":[  
+    "recipients_public_keys":[
       "GCRhSGTHsVjJi2krGPNyP1tJXwx3RT8xNB7Q7Jhsz7oo"
     ]
   },
   "amount":"2",
-  "asset":{  
-    "data":{  
-      "bicycle":{  
+  "asset":{
+    "data":{
+      "bicycle":{
         "serial_number":"abcd1234",
         "manufacturer":"bkfab"
       }
     }
   },
-  "metadata":{  
+  "metadata":{
     "planet":"earth"
   },
-  "payload":{  
+  "transaction":{
     "id":"6d35e929053b8c50659867cceeff870a3d0b920df040a65d9357247aed0a05b8",
-    "outputs":[  
-      {  
-        "public_keys":[  
+    "outputs":[
+      {
+        "public_keys":[
           "GCRhSGTHsVjJi2krGPNyP1tJXwx3RT8xNB7Q7Jhsz7oo"
         ],
-        "condition":{  
-          "details":{  
+        "condition":{
+          "details":{
             "public_key":"GCRhSGTHsVjJi2krGPNyP1tJXwx3RT8xNB7Q7Jhsz7oo",
             "type":"ed25519-sha-256"
           },
@@ -42,22 +42,22 @@
       }
     ],
     "version":"1.0",
-    "inputs":[  
-      {  
+    "inputs":[
+      {
         "fulfillment":"pGSAIOHMnjNDx7eFaM6zg7QOZxTK6qbeYyWu2_RMxFz1BRa6gUDt_RRiCBIAVQqUUk7YRi-p-DzZ3bLNe47GJJq-xywRX4a41UN46MRPuoBENZInSN-hD6dqwosJnoEr8GBGbiwC",
-        "owners_before":[  
+        "owners_before":[
           "GCRhSGTHsVjJi2krGPNyP1tJXwx3RT8xNB7Q7Jhsz7oo"
         ],
         "fulfills":null
       }
     ],
     "operation":"CREATE",
-    "metadata":{  
+    "metadata":{
       "planet":"earth"
     },
-    "asset":{  
-      "data":{  
-        "bicycle":{  
+    "asset":{
+      "data":{
+        "bicycle":{
           "serial_number":"abcd1234",
           "manufacturer":"bkfab"
         }

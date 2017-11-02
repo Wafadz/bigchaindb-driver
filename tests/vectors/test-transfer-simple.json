@@ -1,38 +1,38 @@
-{  
-  "transaction_type":"TRANSFER",
+{
+  "operation":"TRANSFER",
   "use_case":"Transfer transaction: One signer, one input, one output",
-  "keys":{  
-    "signers":[  
-      {  
+  "keys":{
+    "signers":[
+      {
         "public_key":"EVMFEaEADmfMLbuHKo9M5rwxfWMjL2BaNMGrJ3VrKosA",
         "private_key":"3Bj3zLFFpfjyAHiickju9yjof58m77Lj4TNs9dH1dZGN"
       }
     ],
-    "recipients_public_keys":[  
+    "recipients_public_keys":[
       "3uipWLELSxxWJdQTpL5MiwdNkG4hLifuDbsNusiaSxA4"
     ]
   },
   "amount":"1",
-  "asset":{  
-    "data":{  
-      "bicycle":{  
+  "asset":{
+    "data":{
+      "bicycle":{
         "serial_number":"abcd1234",
         "manufacturer":"bkfab"
       }
     }
   },
-  "metadata":{  
+  "metadata":{
     "planet":"earth"
   },
-  "payload":{  
+  "transaction":{
     "id":"03fa9e305fa1344ab782afb1c649913f611100b5e6289cdf1c3900dff0e9a791",
-    "outputs":[  
-      {  
-        "public_keys":[  
+    "outputs":[
+      {
+        "public_keys":[
           "3uipWLELSxxWJdQTpL5MiwdNkG4hLifuDbsNusiaSxA4"
         ],
-        "condition":{  
-          "details":{  
+        "condition":{
+          "details":{
             "public_key":"3uipWLELSxxWJdQTpL5MiwdNkG4hLifuDbsNusiaSxA4",
             "type":"ed25519-sha-256"
           },
@@ -42,13 +42,13 @@
       }
     ],
     "version":"1.0",
-    "inputs":[  
-      {  
+    "inputs":[
+      {
         "fulfillment":"pGSAIMhrFZIFBFw5zPIO-lcp7oemXZZ90JdA3a5KxR8QHro1gUB0-AUEsDTiOf6btid_EUDW0wUtNlYr8qKI7_ydImz4EwFRNdJKAKFTNtqcADBV0Bb-uUiB-w8DoLBSRq9ci08K",
-        "owners_before":[  
+        "owners_before":[
           "EVMFEaEADmfMLbuHKo9M5rwxfWMjL2BaNMGrJ3VrKosA"
         ],
-        "fulfills":{  
+        "fulfills":{
           "transaction_id":"1cf0f91072fb56c4fc35bf4f5a142330b6e0c829ec1af84b2d10c97db959d458",
           "output_index":0
         }
@@ -56,7 +56,7 @@
     ],
     "operation":"TRANSFER",
     "metadata":null,
-    "asset":{  
+    "asset":{
       "id":"1cf0f91072fb56c4fc35bf4f5a142330b6e0c829ec1af84b2d10c97db959d458"
     }
   }

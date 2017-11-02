@@ -1,62 +1,62 @@
-{  
-  "transaction_type":"CREATE",
+{
+  "operation":"CREATE",
   "use_case":"One signer, one output",
-  "keys":{  
-    "signers":[  
-      {  
+  "keys":{
+    "signers":[
+      {
         "public_key":"49ZGzEm5CC8L3Yn62StmWUqd3Ex2feeK8VA8U587ch5m",
         "private_key":"S1XDTx5g8DXgfn5MTmwWbw7joKaid9wAEMCZgCnZXws"
       }
     ],
-    "recipients_public_keys":[  
+    "recipients_public_keys":[
       "49ZGzEm5CC8L3Yn62StmWUqd3Ex2feeK8VA8U587ch5m"
     ]
   },
   "amount":"1",
-  "asset":{  
-    "data":{  
-      "bicycle":{  
+  "asset":{
+    "data":{
+      "bicycle":{
         "serial_number":"abcd1234",
         "manufacturer":"bkfab"
       }
     }
   },
-  "metadata":{  
+  "metadata":{
     "planet":"earth"
   },
-  "payload":{  
+  "transaction":{
     "operation":"CREATE",
-    "metadata":{  
+    "metadata":{
       "planet":"earth"
     },
     "version":"1.0",
-    "asset":{  
-      "data":{  
-        "bicycle":{  
+    "asset":{
+      "data":{
+        "bicycle":{
           "serial_number":"abcd1234",
           "manufacturer":"bkfab"
         }
       }
     },
-    "outputs":[  
-      {  
-        "condition":{  
+    "outputs":[
+      {
+        "condition":{
           "uri":"ni:///sha-256;tSZ9wMBQt53wdS8YqZASAPGigZM6F7Wz3tEMMwYuc4c?fpt=ed25519-sha-256&cost=131072",
-          "details":{  
+          "details":{
             "type":"ed25519-sha-256",
             "public_key":"49ZGzEm5CC8L3Yn62StmWUqd3Ex2feeK8VA8U587ch5m"
           }
         },
-        "public_keys":[  
+        "public_keys":[
           "49ZGzEm5CC8L3Yn62StmWUqd3Ex2feeK8VA8U587ch5m"
         ],
         "amount":"1"
       }
     ],
     "id":"40dd34d900e60a385c5b4428b20143f8ac6ff9a0c8f9a470c1b58ac11674ef0d",
-    "inputs":[  
-      {  
-        "owners_before":[  
+    "inputs":[
+      {
+        "owners_before":[
           "49ZGzEm5CC8L3Yn62StmWUqd3Ex2feeK8VA8U587ch5m"
         ],
         "fulfillment":"pGSAIC7EM5DXmwfaHe4CepL8ZdJWgpWQMu9zpPPw5IvucpVsgUAyHmNJt-Pqyg3hUj090RWvV2MIrDeJC4tcnLLI8CrmsHyamWYDBEr0d6CqoCPHzQaGtU8OS1OSNuSNNek3FvsP",
